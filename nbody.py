@@ -1,10 +1,11 @@
-from typing import List
 from dataclasses import dataclass
+from typing import List
+
+import numpy as np
 import pygame
-from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
-import numpy as np
+from pygame.locals import *
 
 G = 6.67430 * (10**-11)
 dt = 60 * 60 * 24  # Time step: 1 day
